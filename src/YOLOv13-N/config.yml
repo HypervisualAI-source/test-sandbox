@@ -1,0 +1,11 @@
+train:                                                                                                                                                                                                                                                                                                                                                                                                                                   
+    epochs: 600                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    batch: 30                                                                                                     
+    imgsz: 640                                    
+    scale: 0.5                  
+    mosaic: 1.0
+    mixup: 0.0
+    copy_paste: 0.1                                                                                                                                                                                            
+    device: "0"
+    project: "runs"                                             
+    exist_ok: True                                                                  
